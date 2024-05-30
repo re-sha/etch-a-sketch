@@ -1,23 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .cell {
     background-color: #B76E79;
-    border: solid brown;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    flex-grow: 1;
+    border: 1px solid brown;
+    width: 25px;
+    height: 25px;
     box-sizing: border-box;
 }
 
 #container {
-    border: solid brown;
-    height: 400px;
-    width: 400px;
+    border: 1px solid brown;
+    height: 402px;
+    width: 402px;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box; /* the browser will include the border width in the total width and height of the elements, effectively eliminating the unwanted white space. */
