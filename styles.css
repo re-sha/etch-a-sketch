@@ -6,16 +6,17 @@
 .cell {
     background-color: #B76E79;
     outline: 1px solid goldenrod;
-    width: 25px;
-    height: 25px;
+    width: calc(100%/var(--grid--size));
+    height: calc(100%/var(--grid--size));
     box-sizing: border-box;
 }
 
 #container {
     outline: 3px solid goldenrod;
-    height: 400px;
-    width: 400px;
+    height: 100vh;
+    width: 100vh;
     display: flex;
     flex-wrap: wrap;
+    ;
     box-sizing: border-box; /* the browser will include the border width in the total width and height of the elements, effectively eliminating the unwanted white space. */
 }
